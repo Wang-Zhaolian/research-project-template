@@ -1,0 +1,13 @@
+experiment_id: E001
+seed: 42
+
+data:
+  dataset: replace-me
+  version: replace-me
+
+model:
+  name: baseline
+
+training:
+  epochs: 10
+  learning_rate: 0.001

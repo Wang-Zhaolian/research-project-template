@@ -1,0 +1,53 @@
+# Python bytecode and build products
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Local environments and secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Test, type-checker, and notebook caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Raw/derived data: keep policy documents, not bulk data
+/data/raw/**
+!/data/raw/README.md
+/data/interim/**
+!/data/interim/README.md
+/data/processed/**
+!/data/processed/README.md
+
+# Large experiment artifacts
+/checkpoints/
+/models/
+/outputs/
+/logs/
+/wandb/
+/mlruns/
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.joblib
+
+# Local scratch space
+/scratch/
+/tmp/
